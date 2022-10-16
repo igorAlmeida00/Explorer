@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMC</title>
+  
+  <script src="/js/script.js" type="module" defer></script>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <div class="alert-error">
+    Digite somente numeros
+  </div>
+
+  <div class="container">
+    <main class="card">
+      <form action="">
+        <h1 class="tittle">Calcula IMC</h1>
+
+        <div class="input-wrapper">
+          <label for="weight">Peso (kg)</label>
+          <input 
+            id="weight" 
+            type="text"
+            placeholder="70">
+
+        <div class="input-wrapper">
+          <label for="height">Altura (cm)</label>
+          <input 
+            id="height" 
+            type="text"
+            placeholder="180">
+        </div>
+
+        <button type="submit">Calcular IMC</button>
+      </form>
+    </main>
+  </div>
+
+  <div class="modal-wrapper">
+    <div class="modal card">
+      <h2 class="tittle">
+        <button class="close"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#0a0a0a" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><line x1="200" y1="56" x2="56" y2="200" fill="none" stroke="#0a0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"></line><line x1="200" y1="200" x2="56" y2="56" fill="none" stroke="#0a0a0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"></line></svg></button>
+        <span>Seu IMC e de 28</span>
+      </h2>
+
+    </div>
+  </div>
+  
+</body>
+</html>
